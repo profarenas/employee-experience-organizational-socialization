@@ -1,0 +1,26 @@
+# Do not upload raw or confidential research data
+raw/
+original_data/
+confidential/
+private/
+identifiable_data/
+
+# Do not upload original qualitative corpus
+*raw*
+*original*
+*identifiable*
+*confidential*
+*responses*
+*survey_export*
+*forms_export*
+
+# Do not upload working manuscripts or reviewer files
+*.docx
+*.pdf
+*.zip
+
+# Exceptions: allow public documentation files if needed
+!README.md
+!LICENSE.md
+!data/anonymization_log.md
+!data/README_DATA.md
